@@ -2,10 +2,10 @@
 permalink:           pretty
 
 # Setup
-title:               Z.W. Miller
+title:               A Github Blog
 tagline:             A Moderately Okay Data Science Blog
-url:                 http://zwmiller.com
-paginate:            2
+url:                 http://jl56923.github.io/
+paginate:            5
 baseurl:             ""
 
 # Assets
@@ -17,14 +17,13 @@ sass:
 
 # About/contact
 author:
-  name:              Zach Miller
-  url:               https://twitter.com/zaglamir
-  email:             zach@thisismetis.com
+  name:              Joyce Lee
+  email:             jl56923@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/zwmiller
+  repo:              https://github.com/jl56923
 
 # Gems
 gems:
