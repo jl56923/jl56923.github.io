@@ -7,7 +7,6 @@ tagline:             A Moderately Okay Data Science Blog
 url:                 http://jl56923.github.io/
 paginate:            5
 baseurl:             ""
-theme: jekyll-theme-cayman
 
 # Assets
 #
