@@ -64,7 +64,7 @@ I looked at the top 5 positive coefficients with the largest values for the two 
 
 I also ended up refitting the backwards elimination on the full data set, and then mapping the residuals to a choropleth map. I wanted to see if there was a geographic pattern to where the model overestimated or underestimated the crude mortality rate. The choropleth maps above were created using GeoPandas, which is a module that is build to handle spatial and geographic data, and comes with plotting methods to allow for mapping. However, there is another library called Folium which allows you to create interactive maps and save them as html pages, and so I used Folium to create a residual map. Pink means that the model overestimated the overdose mortality rate for that county, whereas green means that the model underestimated the mortality rate; the darker the color, the larger the residual error.
 
-<iframe src="https://rawgit.com/jl56923/project_2/master/pics/resid_map.html"></iframe>
+<iframe width="600" height="300" src="https://rawgit.com/jl56923/project_2/master/pics/resid_map.html"></iframe>
 
 After looking at the residual dataframe and sorting by the size of the residual, I could see that the county with the largest positive residual (meaning the model had the worst underestimate of the true crude mortality rate) was Baltimore city in Maryland. The county with the largest negative residual (meaning the model had the worst overestimate) was Saratoga County, New York.
 
